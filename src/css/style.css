@@ -1,4 +1,37 @@
+* {
+  box-sizing: border-box;
+  font-size: 14px;
+  }
+
+html,
 body {
-  background: #eee;
-  text-align: center;
+  height: 100%;
 }
+
+body {
+  background-color: #ededed;
+}
+.pinned {
+  font-size: 12px;
+}
+.container {
+  background-color: #dcdcdc;
+  border-radius: 20px;
+  width: 200px;
+}
+.content {
+  padding: 20px 10px;
+  
+  }
+  .shell {
+  
+  position: relative;
+  margin: auto;
+  padding: 5px 15px;
+    background: linear-gradient(#bbb, transparent 1px),
+        linear-gradient(90deg, #bbb, transparent 1px), #fff;
+  background-size: 20px 20px;
+  }
+  #inputform {
+    width: 100%;
+      }
