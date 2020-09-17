@@ -1,16 +1,14 @@
 * {
   box-sizing: border-box;
   font-size: 14px;
-  }
+}
 
 html,
 body {
   height: 100%;
-}
-
-body {
   background-color: #ededed;
 }
+
 .pinned {
   font-size: 12px;
 }
@@ -21,17 +19,43 @@ body {
 }
 .content {
   padding: 20px 10px;
-  
-  }
-  .shell {
-  
+}
+.shell {
   position: relative;
   margin: auto;
   padding: 5px 15px;
-    background: linear-gradient(#bbb, transparent 1px),
-        linear-gradient(90deg, #bbb, transparent 1px), #fff;
+  background: linear-gradient(#bbb, transparent 1px),
+    linear-gradient(90deg, #bbb, transparent 1px), #fff;
   background-size: 20px 20px;
-  }
-  #inputform {
-    width: 100%;
-      }
+}
+#inputform {
+  width: 100%;
+}
+
+.liInPinned,
+.liInTask {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+.cont {
+  display: flex;
+  border: 1px solid grey;
+  border-radius: 15px;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fff;
+}
+p {
+  margin: 5px;
+}
+.checked {
+  border: 1px solid;
+  border-radius: 25px;
+  cursor: pointer;
+  padding: 5px;
+}
