@@ -1,4 +1,4 @@
-import Logic from './classes/Logic';
+import Logic from './Logic';
 
 const tasker = new Logic();
 tasker.listnerEnter();

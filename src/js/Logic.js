@@ -1,4 +1,3 @@
-import { setTimeout } from 'core-js';
 import Task from './Task';
 
 export default class Logic {
