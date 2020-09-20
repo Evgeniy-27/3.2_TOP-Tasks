@@ -81,3 +81,7 @@ typings/
 
 # DynamoDB Local files
 .dynamodb/
+
+webpack.common.js
+webpack.dev.js
+webpack.prod.js
