@@ -1,3 +1,7 @@
+[![Build status](https://ci.appveyor.com/api/projects/status/xbflke7rhpyijwmo?svg=true)](https://ci.appveyor.com/project/Evgeniy-27/3-2-top-tasks)
+
+[GitHub Pages](https://evgeniy-27.github.io/3.2_TOP-Tasks/)
+
 ### TOP Tasks
 
 #### Легенда
